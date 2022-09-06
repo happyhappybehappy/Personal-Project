@@ -1,5 +1,4 @@
-<h1 allign="center" dir="auto"><a id="user-content-happyhappybehappy-github" class="anchor" aria-hidden="true" href="#https://github.com/happyhappybehappy">
-"happyhappybehappy's github" </h1>
+<h1 allign="center" dir="auto> happyhappybehappy's github </h1>
     
   #Personal-Project
 <h2 allign="center" dir="auto"> README.md Ver .0.1</h2>
