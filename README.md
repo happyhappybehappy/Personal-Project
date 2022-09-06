@@ -1,5 +1,5 @@
 <h1 div align="center">happyhappybehappy's github </div></h1>
-<h2 div align="center">#Personal-Project</div></h2>
+<div align="center">#Personal-Project</div>
 <div align="right"> README.md Ver .0.1</div>
     
 <a href=6ns5wau73@gmail.com><img src="https://img.shields.io/badge/Gmail-FF0000?style=flat-square&logo=gmail&logoColor=white"/></a>
