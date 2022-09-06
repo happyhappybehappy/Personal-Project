@@ -1,4 +1,4 @@
-<h2 allign="center" dir="auto> #happyhappybehappy's github </h2>
+<h1><center>#happyhappybehappy's github</center></h1>
     
   #Personal-Project
 <h2 allign="center" dir="auto"> README.md Ver .0.1</h2>
