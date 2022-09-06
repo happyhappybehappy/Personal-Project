@@ -13,8 +13,3 @@
 - 2. FPS 방식의 레이캐스트 기반<br>
 - 3/``<br>
    --- 이유 : WATER~ mewr~~~<br>
-<br><br><br>
-
-
-
-<img src="https://img.shields.io/badge/Gmail-FF0000?style=flat-square&logo=gmail&logoColor=white"/> : 6ns5wau73@gmail.com
