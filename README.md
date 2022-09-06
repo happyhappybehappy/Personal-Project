@@ -1,5 +1,5 @@
-#                     Personal-Project
-<h2 allign="right" dir="auto"> README.md Ver .0.1</h2>
+#<h1 allign="center" dir="auto"> Personal-Project </h1>
+<h2 allign="center" dir="auto"> README.md Ver .0.1</h2>
     
 <a href=6ns5wau73@gmail.com><img src="https://img.shields.io/badge/Gmail-FF0000?style=flat-square&logo=gmail&logoColor=white"/></a>
 
