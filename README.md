@@ -2,14 +2,13 @@
 <div align="right"> README.md Ver .0.1</div>
 <br><br><br>
 
-안녕하세요 리드미입니다.
-<br><br>
-
 아이디어노트<br>
-- 장르  :  액션 RPG<br>
-- 아이디어  :  <br>
+- 장르  :  어드벤처 RPG <br>
+- 아이디어  : 와우, 원신 모작 <br>
 - 구현방법<br>
-- 1. 좀비의 유한상태기계는 IDLE PATROL DEAD 만들기<br>
-- 2. FPS 방식의 레이캐스트 기반<br>
-- 3/``<br>
-   --- 이유 : WATER~ mewr~~~<br>
+- 1. 플레이어 이동은 PlayerController, NavMeshAgent 이용 <br>
+  --- 키보드를 이용한 PlayerController 이동, 마우스를 이용한 NavMeshAgent 이동<br>
+- 2. 탈 것 구현하여 탈 것의 자식으로 플레이어를 지정하고 탈 것 상호작용 시 탈 것에 올라타는 애니메이션 구현<br>
+- 3. 플레이어의 FSM은 IDLE, MOVE, ATTACK, RIDING, INTERACTION, DEAD
+- 4. 몬스터 구현 / 몬스터의 FSM은 IDLE, TRACE, ATTACK, DEAD
+- 5. 상호작용 가능한 오브젝트 구현(상자, NPC, 사다리 등...)
