@@ -1,5 +1,5 @@
 <h1 div align="center">개인 프로젝트-1</div></h1>
-<div align="right"> README.md Ver .0.1</div>
+<--<div align="right"> README.md Ver .0.1</div>-->
 <br><br><br>
 
 아이디어노트<br>
@@ -13,3 +13,6 @@
 4. 몬스터 구현 / 몬스터의 FSM은 IDLE, TRACE, ATTACK, DEAD<br>
 5. 상호작용 가능한 오브젝트 구현(상자, NPC, 사다리 등...)<br>
 6. 시네머신 카메라를 이용해 백뷰로 구현
+
+게임 리소스 추출
+https://www.inflearn.com/questions/197919
