@@ -23,7 +23,7 @@ https://www.inflearn.com/questions/197919
       1.2 플레이어 행동(상태패턴/FSM)<br>
         1.2.1 이동 / 점프 (PlayerController, NavMeshAgent)<br>
         1.2.2 공격(Animation)<br>
-        1.2.3 상호작용(IInteractable)<br><br>
+        1.2.3 상호작용(IInteractable)<br>
         
     2. 인벤토리 (List<T> / 배열 / Dictionary) 자료구조 결정<br>
     3. 맵<br><
@@ -31,7 +31,7 @@ https://www.inflearn.com/questions/197919
       3.2 NavMesh 설정<br>
     4. 소리 - 추출<br>
     5. 탈 것 / 지상탈것, 날탈<br>
-      - 탈 것을 플레이어의 자식으로 구현하여 탈 것 소환 시 플레이어가 탈 것에 타는 행동을 취하고 플레이어에 탈 것 스크립트를 넣어 움직임을 따로 구현(상태패턴)<br><br><br>
+      - 탈 것을 플레이어의 자식으로 구현하여 탈 것 소환 시 플레이어가 탈 것에 타는 행동을 취하고 플레이어에 탈 것 스크립트를 넣어 움직임을 따로 구현(상태패턴)<br>
       
    
    1일차 2일차 -> 리소스 추출 및 모델링 건들기<br>
