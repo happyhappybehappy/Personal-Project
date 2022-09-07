@@ -24,7 +24,6 @@ https://www.inflearn.com/questions/197919
         1.2.1 이동 / 점프 (PlayerController, NavMeshAgent)<br>
         1.2.2 공격(Animation)<br>
         1.2.3 상호작용(IInteractable)<br>
-        
     2. 인벤토리 (List<T> / 배열 / Dictionary) 자료구조 결정<br>
     3. 맵<br>
       3.1 맵 모델링 (리소스 추출하기)<br>
