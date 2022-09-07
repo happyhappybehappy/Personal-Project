@@ -45,3 +45,16 @@ https://www.inflearn.com/questions/197919
    13일차 -> ppt 작성<br>
    14일차 -> 발표<br>
      
+
+   <br><br><br><br>
+   ++++++++++++++)<br>
+   야숨, 원신처럼 벽타기?
+   <br><br><br><br>
+   
+   와우 추출관련 정보<br>
+   1. (유니티, X-File) https://dlgnlfus.tistory.com/182<br>
+   2. (인게임 파일 음성 추출방법) https://www.inven.co.kr/board/wow/17/37404<br>
+   3. (m2->X-File) https://3dmpengines.tistory.com/1293 <br>
+   4. (모델뷰어 -> X-File) https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=jins8611&logNo=110178016746 <br>
+   5. https://www.playxp.com/sc2/galaxy/view.php?article_id=4931444<br>
+   
