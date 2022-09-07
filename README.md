@@ -26,7 +26,7 @@ https://www.inflearn.com/questions/197919
         1.2.3 상호작용(IInteractable)<br><br>
         
     2. 인벤토리 (List<T> / 배열 / Dictionary) 자료구조 결정<br>
-    3. 맵<br>
+    3. 맵<br><
       3.1 맵 모델링 (리소스 추출하기)<br>
       3.2 NavMesh 설정<br>
     4. 소리 - 추출<br>
