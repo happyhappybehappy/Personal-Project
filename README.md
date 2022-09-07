@@ -4,7 +4,7 @@
 
 아이디어노트<br>
 - 장르  : (액션) 어드벤처 RPG <br>
-- 아이디어  : 와우, 원신 모작 / 자연스로운 이동, 상호작용에 중점<br>
+- 아이디어  : 와우 모작 / 자연스로운 이동, 상호작용에 중점<br>
 - 구현방법<br>
 1. 플레이어 이동은 PlayerController, NavMeshAgent 이용 <br>
    --> 키보드를 이용한 PlayerController 이동, 마우스를 이용한 NavMeshAgent 이동<br>
@@ -13,6 +13,10 @@
 4. 몬스터 구현 / 몬스터의 FSM은 IDLE, TRACE, ATTACK, DEAD<br>
 5. 상호작용 가능한 오브젝트 구현(상자, NPC, 사다리 등...)<br>
 6. 시네머신 카메라를 이용해 백뷰로 구현
-
+<br>
 게임 리소스 추출
 https://www.inflearn.com/questions/197919
+<br
+- 만들어야 할 것
+    1. 플레이어
+    2. 
