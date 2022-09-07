@@ -16,7 +16,17 @@
 <br>
 게임 리소스 추출
 https://www.inflearn.com/questions/197919
-<br>
-- 만들어야 할 것
-    1. 플레이어
-    2. 
+<br><br>
+- 만들어야 할 것<br>
+    1. 플레이어 및 NPC<br>
+      1.1 플레이어 모델링<br>
+      1.2 플레이어 행동(상태패턴/FSM)<br>
+        1.2.1 이동 / 점프 (PlayerController, NavMeshAgent)<br>
+        1.2.2 공격(Animation)<br>
+        1.2.3 상호작용(IInteractable)<br><br>
+        
+    2. 인벤토리 (List<T> / 배열 / Dictionary) 자료구조 결정<br>
+    3. 맵<br>
+      3.1 맵 모델링 (리소스 추출하기)<br>
+      3.2 NavMesh 설정<br>
+    4. <br>
