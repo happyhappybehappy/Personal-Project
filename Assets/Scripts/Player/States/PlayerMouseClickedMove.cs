@@ -4,7 +4,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 
 [RequireComponent(typeof(CharacterController))]
-public class PlayerMove : MonoBehaviour
+public class PlayerMouseClickedMove : MonoBehaviour
 {
     [SerializeField] private float speed = 4f;
     [SerializeField] private CharacterController characterController;
@@ -21,10 +21,17 @@ public class PlayerMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Move();
+        KeyboardMove();
+        MouseClickedMove();
     }
 
-    public void Move()
+    public void KeyboardMove()
+    { 
+    
+    }
+
+
+    public void MouseClickedMove()
     {
         if (Input.GetMouseButtonUp(1))
         {
