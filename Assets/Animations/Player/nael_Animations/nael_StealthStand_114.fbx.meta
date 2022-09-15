@@ -1,0 +1,1539 @@
+fileFormatVersion: 2
+guid: adfc601366ad1fa49a3e3fd9c436990d
+ModelImporter:
+  serializedVersion: 21202
+  internalIDToNameTable:
+  - first:
+      74: 1061388827037838639
+    second: StealthStand [114]
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: character/nightelf/male/nightelfmale_hd_bone_1
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: character/nightelf/male/nightelfmale_hd_bone_6
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: character/nightelf/male/nightelfmale_hd_bone_7
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: character/nightelf/male/nightelfmale_hd_bone_13
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: character/nightelf/male/nightelfmale_hd_bone_14
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: character/nightelf/male/nightelfmale_hd_bone_19
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: character/nightelf/male/nightelfmale_hd_bone_20
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: character/nightelf/male/nightelfmale_hd_bone_9
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: character/nightelf/male/nightelfmale_hd_bone_16
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: character/nightelf/male/nightelfmale_hd_bone_24
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: character/nightelf/male/nightelfmale_hd_bone_40
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: character/nightelf/male/nightelfmale_hd_bone_23
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: character/nightelf/male/nightelfmale_hd_bone_21
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: character/nightelf/male/nightelfmale_hd_bone_29
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: character/nightelf/male/nightelfmale_hd_bone_27
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: character/nightelf/male/nightelfmale_hd_bone_37
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: character/nightelf/male/nightelfmale_hd_bone_33
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: character/nightelf/male/nightelfmale_hd_bone_45
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: character/nightelf/male/nightelfmale_hd_bone_41
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: character/nightelf/male/nightelfmale_hd_bone_31
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: character/nightelf/male/nightelfmale_hd_bone_32
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: character/nightelf/male/nightelfmale_hd_bone_78
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: character/nightelf/male/nightelfmale_hd_bone_116
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: character/nightelf/male/nightelfmale_hd_bone_66
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: character/nightelf/male/nightelfmale_hd_bone_101
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: character/nightelf/male/nightelfmale_hd_bone_128
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: character/nightelf/male/nightelfmale_hd_bone_99
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: character/nightelf/male/nightelfmale_hd_bone_126
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: character/nightelf/male/nightelfmale_hd_bone_103
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: character/nightelf/male/nightelfmale_hd_bone_130
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: character/nightelf/male/nightelfmale_hd_bone_102
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: character/nightelf/male/nightelfmale_hd_bone_129
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: character/nightelf/male/nightelfmale_hd_bone_100
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: character/nightelf/male/nightelfmale_hd_bone_127
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: character/nightelf/male/nightelfmale_hd_bone_91
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: character/nightelf/male/nightelfmale_hd_bone_121
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: character/nightelf/male/nightelfmale_hd_bone_95
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: character/nightelf/male/nightelfmale_hd_bone_125
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: character/nightelf/male/nightelfmale_hd_bone_92
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: character/nightelf/male/nightelfmale_hd_bone_122
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: character/nightelf/male/nightelfmale_hd_bone_94
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: character/nightelf/male/nightelfmale_hd_bone_124
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: nael(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: character/nightelf/male/nightelfmale_hd
+      parentName: nael(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: character/nightelf/male/nightelfmale_hd_rig
+      parentName: nael(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: character/nightelf/male/nightelfmale_hd_bone_0
+      parentName: character/nightelf/male/nightelfmale_hd_rig
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.00000008940697, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: character/nightelf/male/nightelfmale_hd_bone_1
+      parentName: character/nightelf/male/nightelfmale_hd_bone_0
+      position: {x: 0.015371203, y: -0.000000019040641, z: 0.7731496}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_2
+      parentName: character/nightelf/male/nightelfmale_hd_bone_1
+      position: {x: -0.009006199, y: 0, z: -0.030689478}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_4
+      parentName: character/nightelf/male/nightelfmale_hd_bone_2
+      position: {x: -0.06436341, y: 0, z: -0.03986299}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_10
+      parentName: character/nightelf/male/nightelfmale_hd_bone_4
+      position: {x: -0.024637677, y: 0, z: -0.083393864}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_17
+      parentName: character/nightelf/male/nightelfmale_hd_bone_10
+      position: {x: -0.002690561, y: 0, z: -0.108420484}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_5
+      parentName: character/nightelf/male/nightelfmale_hd_bone_2
+      position: {x: 0.09850611, y: 0, z: -0.04004937}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_11
+      parentName: character/nightelf/male/nightelfmale_hd_bone_5
+      position: {x: 0.02599334, y: 0, z: -0.063547015}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_18
+      parentName: character/nightelf/male/nightelfmale_hd_bone_11
+      position: {x: 0.0021979809, y: 0, z: -0.11770505}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_6
+      parentName: character/nightelf/male/nightelfmale_hd_bone_2
+      position: {x: -0.006365004, y: -0.06594465, z: -0.063069046}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_12
+      parentName: character/nightelf/male/nightelfmale_hd_bone_6
+      position: {x: 0.011079782, y: -0.02582313, z: -0.29048756}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_13
+      parentName: character/nightelf/male/nightelfmale_hd_bone_6
+      position: {x: 0.011079782, y: -0.02582313, z: -0.29048756}
+      rotation: {x: 0.008472561, y: 0.009377084, z: 0.0009829348, w: 0.99991965}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_19
+      parentName: character/nightelf/male/nightelfmale_hd_bone_13
+      position: {x: 0.064221464, y: -0.027259097, z: -0.2935187}
+      rotation: {x: -0.012354526, y: -0.002660847, z: 0.5833656, w: 0.8121113}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_25
+      parentName: character/nightelf/male/nightelfmale_hd_bone_19
+      position: {x: -0, y: 0, z: 0.000000007450581}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_31
+      parentName: character/nightelf/male/nightelfmale_hd_bone_25
+      position: {x: -0.12259325, y: 0, z: -0.06936326}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_188
+      parentName: character/nightelf/male/nightelfmale_hd_bone_25
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_190
+      parentName: character/nightelf/male/nightelfmale_hd_bone_25
+      position: {x: -0.08884666, y: 0.000000029802322, z: -0.09538465}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_169
+      parentName: character/nightelf/male/nightelfmale_hd_bone_13
+      position: {x: 0.000000009313226, y: 0.000000074505806, z: -0.000000059604645}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_7
+      parentName: character/nightelf/male/nightelfmale_hd_bone_2
+      position: {x: -0.006365004, y: 0.06594465, z: -0.063069046}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_14
+      parentName: character/nightelf/male/nightelfmale_hd_bone_7
+      position: {x: 0.01107978, y: 0.025823124, z: -0.2904875}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_20
+      parentName: character/nightelf/male/nightelfmale_hd_bone_14
+      position: {x: 0.06422148, y: 0.027259104, z: -0.29351872}
+      rotation: {x: -0.000000019682536, y: -0.00000014537223, z: 0.625961, w: 0.7798544}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_26
+      parentName: character/nightelf/male/nightelfmale_hd_bone_20
+      position: {x: -0.000000011175871, y: 0, z: -0.000000007450581}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_32
+      parentName: character/nightelf/male/nightelfmale_hd_bone_26
+      position: {x: -0.12259331, y: 0, z: -0.06936329}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_186
+      parentName: character/nightelf/male/nightelfmale_hd_bone_26
+      position: {x: -0.088844545, y: 0.000000022351742, z: -0.09538467}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_189
+      parentName: character/nightelf/male/nightelfmale_hd_bone_26
+      position: {x: -0.000000048428774, y: 0.000000007450581, z: -0.000000014901161}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_172
+      parentName: character/nightelf/male/nightelfmale_hd_bone_14
+      position: {x: 0.00000017369166, y: -0.000000007450581, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_15
+      parentName: character/nightelf/male/nightelfmale_hd_bone_7
+      position: {x: 0.01107978, y: 0.025823124, z: -0.2904875}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_8
+      parentName: character/nightelf/male/nightelfmale_hd_bone_2
+      position: {x: -0.07385495, y: 0, z: -0.025598407}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_164
+      parentName: character/nightelf/male/nightelfmale_hd_bone_8
+      position: {x: 0.000000014901161, y: 0, z: -0.00000011920929}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_155
+      parentName: character/nightelf/male/nightelfmale_hd_bone_2
+      position: {x: 0.031721752, y: 0.11805556, z: -0.061563373}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_161
+      parentName: character/nightelf/male/nightelfmale_hd_bone_2
+      position: {x: 0.031721752, y: -0.11805556, z: -0.06156331}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_3
+      parentName: character/nightelf/male/nightelfmale_hd_bone_1
+      position: {x: 0.0011712213, y: 0, z: -0.0046141148}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_9
+      parentName: character/nightelf/male/nightelfmale_hd_bone_3
+      position: {x: 0.018898865, y: 0, z: 0.06741624}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_16
+      parentName: character/nightelf/male/nightelfmale_hd_bone_9
+      position: {x: 0.022332985, y: 0, z: 0.081018925}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_21
+      parentName: character/nightelf/male/nightelfmale_hd_bone_16
+      position: {x: 0.011738621, y: -0.02534432, z: 0.10125923}
+      rotation: {x: 0.000000006745707, y: 0.024800356, z: 0.6698125, w: 0.7421161}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_27
+      parentName: character/nightelf/male/nightelfmale_hd_bone_21
+      position: {x: -0.018032206, y: -0.11107004, z: 0.004112482}
+      rotation: {x: -0.6076839, y: -0.063682295, z: -0.044744983, w: 0.7903561}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_33
+      parentName: character/nightelf/male/nightelfmale_hd_bone_27
+      position: {x: 0.020765726, y: -0.054541424, z: -0.20439565}
+      rotation: {x: -0.008359937, y: -0.18103357, z: 0.05140597, w: 0.98209697}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_41
+      parentName: character/nightelf/male/nightelfmale_hd_bone_33
+      position: {x: -0.061900623, y: -0.0445721, z: -0.16703361}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_91
+      parentName: character/nightelf/male/nightelfmale_hd_bone_41
+      position: {x: -0.055483926, y: -0.030101463, z: -0.092157}
+      rotation: {x: -0.17747076, y: 0.06009154, z: 0.029854218, w: 0.981836}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_121
+      parentName: character/nightelf/male/nightelfmale_hd_bone_91
+      position: {x: -0.005843315, y: 0.00807786, z: -0.050995883}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_92
+      parentName: character/nightelf/male/nightelfmale_hd_bone_41
+      position: {x: 0.0023077908, y: -0.032218114, z: -0.09854591}
+      rotation: {x: -0.15868324, y: 0.020085879, z: 0.03930322, w: 0.98634243}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_122
+      parentName: character/nightelf/male/nightelfmale_hd_bone_92
+      position: {x: -0.011500713, y: 0.0068139136, z: -0.04991537}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_93
+      parentName: character/nightelf/male/nightelfmale_hd_bone_41
+      position: {x: 0.024366677, y: -0.034934774, z: -0.09718209}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_123
+      parentName: character/nightelf/male/nightelfmale_hd_bone_93
+      position: {x: -0.0035204254, y: 0.0068069994, z: -0.044477757}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_94
+      parentName: character/nightelf/male/nightelfmale_hd_bone_41
+      position: {x: -0.025305998, y: 0.025316656, z: -0.034483433}
+      rotation: {x: -0.2125345, y: -0.12302786, z: 0.1088331, w: 0.96324897}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_124
+      parentName: character/nightelf/male/nightelfmale_hd_bone_94
+      position: {x: -0.02106317, y: 0.009783357, z: -0.030073643}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_95
+      parentName: character/nightelf/male/nightelfmale_hd_bone_41
+      position: {x: -0.026664881, y: -0.033862546, z: -0.09035152}
+      rotation: {x: -0.18645768, y: 0.043161888, z: 0.038851485, w: 0.98074526}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_125
+      parentName: character/nightelf/male/nightelfmale_hd_bone_95
+      position: {x: -0.00954834, y: 0.010720849, z: -0.057734784}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_96
+      parentName: character/nightelf/male/nightelfmale_hd_bone_41
+      position: {x: 0.0050254134, y: 0.23552789, z: -0.65091294}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_209
+      parentName: character/nightelf/male/nightelfmale_hd_bone_96
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_213
+      parentName: character/nightelf/male/nightelfmale_hd_bone_96
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_97
+      parentName: character/nightelf/male/nightelfmale_hd_bone_41
+      position: {x: 0.0050254134, y: 0.23552789, z: -0.65091294}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_205
+      parentName: character/nightelf/male/nightelfmale_hd_bone_97
+      position: {x: -0.4913931, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_207
+      parentName: character/nightelf/male/nightelfmale_hd_bone_97
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_211
+      parentName: character/nightelf/male/nightelfmale_hd_bone_97
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_199
+      parentName: character/nightelf/male/nightelfmale_hd_bone_41
+      position: {x: 0.0050254134, y: -0.00058323145, z: -0.025912404}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_200
+      parentName: character/nightelf/male/nightelfmale_hd_bone_41
+      position: {x: 0.0050254134, y: -0.00058320165, z: -0.02591288}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_201
+      parentName: character/nightelf/male/nightelfmale_hd_bone_41
+      position: {x: 0.00000046286732, y: -0.0005825162, z: -0.025909007}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_204
+      parentName: character/nightelf/male/nightelfmale_hd_bone_41
+      position: {x: 0.0050254134, y: -0.00058323145, z: -0.025912344}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_42
+      parentName: character/nightelf/male/nightelfmale_hd_bone_33
+      position: {x: -0.030950319, y: -0.02228579, z: -0.08351665}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_43
+      parentName: character/nightelf/male/nightelfmale_hd_bone_33
+      position: {x: -0.06190065, y: -0.044571545, z: -0.16703326}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_194
+      parentName: character/nightelf/male/nightelfmale_hd_bone_33
+      position: {x: -0.00000020116568, y: -0.000000014901161, z: 0.00000023841858}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_34
+      parentName: character/nightelf/male/nightelfmale_hd_bone_27
+      position: {x: 0.020765726, y: -0.054541424, z: -0.20439565}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_35
+      parentName: character/nightelf/male/nightelfmale_hd_bone_27
+      position: {x: 0.010382861, y: -0.027270703, z: -0.102197826}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_191
+      parentName: character/nightelf/male/nightelfmale_hd_bone_27
+      position: {x: 0.013057209, y: 0.0114142895, z: 0.048894286}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_185
+      parentName: character/nightelf/male/nightelfmale_hd_bone_21
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_22
+      parentName: character/nightelf/male/nightelfmale_hd_bone_16
+      position: {x: 0.078506716, y: 0, z: 0.033793986}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_28
+      parentName: character/nightelf/male/nightelfmale_hd_bone_22
+      position: {x: -0, y: 0, z: -0.14861125}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_36
+      parentName: character/nightelf/male/nightelfmale_hd_bone_28
+      position: {x: -0, y: 0, z: -0.14861117}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_44
+      parentName: character/nightelf/male/nightelfmale_hd_bone_36
+      position: {x: -0, y: 0, z: -0.14861117}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_98
+      parentName: character/nightelf/male/nightelfmale_hd_bone_44
+      position: {x: -0, y: 0, z: -0.14861117}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_23
+      parentName: character/nightelf/male/nightelfmale_hd_bone_16
+      position: {x: 0.011738575, y: 0.025344312, z: 0.10125887}
+      rotation: {x: 0.00000004567646, y: -0.019834263, z: 0.5356363, w: 0.8442158}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_29
+      parentName: character/nightelf/male/nightelfmale_hd_bone_23
+      position: {x: -0.018032163, y: 0.11107005, z: 0.0041128397}
+      rotation: {x: 0.571343, y: 0.26398787, z: 0.12848897, w: 0.76639944}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_37
+      parentName: character/nightelf/male/nightelfmale_hd_bone_29
+      position: {x: 0.020765726, y: 0.054541424, z: -0.20439565}
+      rotation: {x: 0.0061181486, y: -0.1766741, z: -0.049411513, w: 0.9830094}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_45
+      parentName: character/nightelf/male/nightelfmale_hd_bone_37
+      position: {x: -0.06190065, y: 0.044571545, z: -0.16703326}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_99
+      parentName: character/nightelf/male/nightelfmale_hd_bone_45
+      position: {x: -0.055483945, y: 0.030101538, z: -0.09215772}
+      rotation: {x: 0.17747533, y: 0.060091183, z: -0.029854769, w: 0.9818352}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_126
+      parentName: character/nightelf/male/nightelfmale_hd_bone_99
+      position: {x: -0.005843334, y: -0.00807783, z: -0.050996184}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_100
+      parentName: character/nightelf/male/nightelfmale_hd_bone_45
+      position: {x: 0.024366723, y: 0.0349347, z: -0.09718311}
+      rotation: {x: 0.17778796, y: 0.07274744, z: -0.025203487, w: 0.9810526}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_127
+      parentName: character/nightelf/male/nightelfmale_hd_bone_100
+      position: {x: -0.003520386, y: -0.006806046, z: -0.044477757}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_101
+      parentName: character/nightelf/male/nightelfmale_hd_bone_45
+      position: {x: -0.025305927, y: -0.02531567, z: -0.034483254}
+      rotation: {x: 0.057687584, y: 0.1412652, z: -0.08635706, w: 0.98450947}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_128
+      parentName: character/nightelf/male/nightelfmale_hd_bone_101
+      position: {x: -0.021063298, y: -0.009783521, z: -0.030074596}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_102
+      parentName: character/nightelf/male/nightelfmale_hd_bone_45
+      position: {x: 0.0023078125, y: 0.032218006, z: -0.09854603}
+      rotation: {x: 0.15868285, y: 0.020084167, z: -0.03930329, w: 0.98634255}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_129
+      parentName: character/nightelf/male/nightelfmale_hd_bone_102
+      position: {x: -0.011500781, y: -0.006813228, z: -0.049915075}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_103
+      parentName: character/nightelf/male/nightelfmale_hd_bone_45
+      position: {x: -0.026664788, y: 0.033863664, z: -0.09035134}
+      rotation: {x: 0.18646823, y: 0.04316144, z: -0.03885407, w: 0.9807431}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_130
+      parentName: character/nightelf/male/nightelfmale_hd_bone_103
+      position: {x: -0.009548407, y: -0.010721594, z: -0.057735443}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_104
+      parentName: character/nightelf/male/nightelfmale_hd_bone_45
+      position: {x: 0.00502544, y: -0.23552734, z: -0.6509133}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_206
+      parentName: character/nightelf/male/nightelfmale_hd_bone_104
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_208
+      parentName: character/nightelf/male/nightelfmale_hd_bone_104
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_215
+      parentName: character/nightelf/male/nightelfmale_hd_bone_208
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_210
+      parentName: character/nightelf/male/nightelfmale_hd_bone_104
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_214
+      parentName: character/nightelf/male/nightelfmale_hd_bone_104
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_105
+      parentName: character/nightelf/male/nightelfmale_hd_bone_45
+      position: {x: 0.00502544, y: -0.23552734, z: -0.6509133}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_212
+      parentName: character/nightelf/male/nightelfmale_hd_bone_105
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_46
+      parentName: character/nightelf/male/nightelfmale_hd_bone_37
+      position: {x: -0.030950319, y: 0.02228579, z: -0.08351665}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_47
+      parentName: character/nightelf/male/nightelfmale_hd_bone_37
+      position: {x: -0.06190065, y: 0.044571545, z: -0.16703326}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_48
+      parentName: character/nightelf/male/nightelfmale_hd_bone_37
+      position: {x: -0.05687521, y: -0.19095579, z: -0.81794655}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_202
+      parentName: character/nightelf/male/nightelfmale_hd_bone_48
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_203
+      parentName: character/nightelf/male/nightelfmale_hd_bone_48
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_195
+      parentName: character/nightelf/male/nightelfmale_hd_bone_37
+      position: {x: 0.00000010430813, y: -0.00000017881393, z: -0.00000029802322}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_38
+      parentName: character/nightelf/male/nightelfmale_hd_bone_29
+      position: {x: 0.020765726, y: 0.054541424, z: -0.20439565}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_39
+      parentName: character/nightelf/male/nightelfmale_hd_bone_29
+      position: {x: 0.010382861, y: 0.027270703, z: -0.102197826}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_187
+      parentName: character/nightelf/male/nightelfmale_hd_bone_29
+      position: {x: 0.013064027, y: -0.011414334, z: 0.048900604}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_184
+      parentName: character/nightelf/male/nightelfmale_hd_bone_23
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_24
+      parentName: character/nightelf/male/nightelfmale_hd_bone_16
+      position: {x: 0.00079334155, y: 0, z: 0.16169882}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_30
+      parentName: character/nightelf/male/nightelfmale_hd_bone_24
+      position: {x: -0.009944763, y: 0, z: 0.023294449}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_40
+      parentName: character/nightelf/male/nightelfmale_hd_bone_30
+      position: {x: -0.0107704755, y: 0, z: 0.02681923}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_49
+      parentName: character/nightelf/male/nightelfmale_hd_bone_40
+      position: {x: -0.012547908, y: 0, z: 0.0018895864}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_106
+      parentName: character/nightelf/male/nightelfmale_hd_bone_49
+      position: {x: -0.06622312, y: 0, z: -0.05777955}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_107
+      parentName: character/nightelf/male/nightelfmale_hd_bone_49
+      position: {x: -0.042205904, y: -0.00037225, z: -0.033940673}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_108
+      parentName: character/nightelf/male/nightelfmale_hd_bone_49
+      position: {x: -0.061544377, y: -0.0044384305, z: -0.03120172}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_109
+      parentName: character/nightelf/male/nightelfmale_hd_bone_49
+      position: {x: -0.058149654, y: -0.010669222, z: -0.030648947}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_110
+      parentName: character/nightelf/male/nightelfmale_hd_bone_49
+      position: {x: -0.054012153, y: -0.015979167, z: -0.029616952}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_111
+      parentName: character/nightelf/male/nightelfmale_hd_bone_49
+      position: {x: -0.058149654, y: 0.010669194, z: -0.030648947}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_112
+      parentName: character/nightelf/male/nightelfmale_hd_bone_49
+      position: {x: -0.054012153, y: 0.015979167, z: -0.029616952}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_113
+      parentName: character/nightelf/male/nightelfmale_hd_bone_49
+      position: {x: -0.061544377, y: 0.004438417, z: -0.03120172}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_114
+      parentName: character/nightelf/male/nightelfmale_hd_bone_49
+      position: {x: -0.059999824, y: 0, z: -0.061607957}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_131
+      parentName: character/nightelf/male/nightelfmale_hd_bone_114
+      position: {x: -0.0073769093, y: 0, z: -0.03241527}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_50
+      parentName: character/nightelf/male/nightelfmale_hd_bone_40
+      position: {x: 0.046637192, y: -0.03295182, z: 0.014680147}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_115
+      parentName: character/nightelf/male/nightelfmale_hd_bone_50
+      position: {x: 0.0443917, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_132
+      parentName: character/nightelf/male/nightelfmale_hd_bone_115
+      position: {x: 0.063560866, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_137
+      parentName: character/nightelf/male/nightelfmale_hd_bone_132
+      position: {x: 0.056020856, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_139
+      parentName: character/nightelf/male/nightelfmale_hd_bone_137
+      position: {x: 0.060813915, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_141
+      parentName: character/nightelf/male/nightelfmale_hd_bone_139
+      position: {x: 0.039447248, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_51
+      parentName: character/nightelf/male/nightelfmale_hd_bone_40
+      position: {x: -0.07354201, y: -0.01223525, z: 0.009624004}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_52
+      parentName: character/nightelf/male/nightelfmale_hd_bone_40
+      position: {x: -0.043622565, y: 0.035286114, z: -0.012696862}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_53
+      parentName: character/nightelf/male/nightelfmale_hd_bone_40
+      position: {x: -0.053179782, y: 0.03616736, z: 0.008746147}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_54
+      parentName: character/nightelf/male/nightelfmale_hd_bone_40
+      position: {x: -0.07590784, y: 0, z: 0.03382671}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_55
+      parentName: character/nightelf/male/nightelfmale_hd_bone_40
+      position: {x: -0.06502187, y: 0.020910973, z: 0.04747665}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_56
+      parentName: character/nightelf/male/nightelfmale_hd_bone_40
+      position: {x: -0.06917854, y: 0.023065278, z: 0.033276677}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_57
+      parentName: character/nightelf/male/nightelfmale_hd_bone_40
+      position: {x: -0.05749325, y: 0.033967778, z: 0.03098929}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_58
+      parentName: character/nightelf/male/nightelfmale_hd_bone_40
+      position: {x: -0.06501977, y: 0.020771708, z: 0.017816782}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_59
+      parentName: character/nightelf/male/nightelfmale_hd_bone_40
+      position: {x: -0.06455424, y: 0.021043057, z: 0.015470862}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_60
+      parentName: character/nightelf/male/nightelfmale_hd_bone_40
+      position: {x: -0.06679965, y: -0.017421527, z: -0.021020412}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_61
+      parentName: character/nightelf/male/nightelfmale_hd_bone_40
+      position: {x: -0.054781184, y: 0.018023621, z: 0.019735694}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_62
+      parentName: character/nightelf/male/nightelfmale_hd_bone_40
+      position: {x: -0.06699326, y: -0.016117223, z: -0.024477363}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_63
+      parentName: character/nightelf/male/nightelfmale_hd_bone_40
+      position: {x: -0.07454993, y: -0.004446764, z: -0.023819089}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_64
+      parentName: character/nightelf/male/nightelfmale_hd_bone_40
+      position: {x: 0.013764957, y: -0.055245724, z: 0.015074611}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_116
+      parentName: character/nightelf/male/nightelfmale_hd_bone_64
+      position: {x: 0.06299046, y: -0.032758635, z: 0.021609664}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_133
+      parentName: character/nightelf/male/nightelfmale_hd_bone_116
+      position: {x: 0.06814544, y: -0.0310389, z: 0.0035973787}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_65
+      parentName: character/nightelf/male/nightelfmale_hd_bone_40
+      position: {x: -0.0704084, y: -0.02050736, z: 0.0013684034}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_66
+      parentName: character/nightelf/male/nightelfmale_hd_bone_40
+      position: {x: -0.043622565, y: -0.035286114, z: -0.012696862}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_67
+      parentName: character/nightelf/male/nightelfmale_hd_bone_40
+      position: {x: -0.053179782, y: -0.03616736, z: 0.008746147}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_68
+      parentName: character/nightelf/male/nightelfmale_hd_bone_40
+      position: {x: 0.046637245, y: 0.03295183, z: 0.014679551}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_117
+      parentName: character/nightelf/male/nightelfmale_hd_bone_68
+      position: {x: 0.044391673, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_134
+      parentName: character/nightelf/male/nightelfmale_hd_bone_117
+      position: {x: 0.06356045, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_138
+      parentName: character/nightelf/male/nightelfmale_hd_bone_134
+      position: {x: 0.056021184, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_140
+      parentName: character/nightelf/male/nightelfmale_hd_bone_138
+      position: {x: 0.060813677, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_142
+      parentName: character/nightelf/male/nightelfmale_hd_bone_140
+      position: {x: 0.039447516, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_69
+      parentName: character/nightelf/male/nightelfmale_hd_bone_40
+      position: {x: 0.03321881, y: 0, z: 0.07866514}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_118
+      parentName: character/nightelf/male/nightelfmale_hd_bone_69
+      position: {x: 0.022067184, y: 0, z: 0.021331668}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_70
+      parentName: character/nightelf/male/nightelfmale_hd_bone_40
+      position: {x: -0.08813187, y: -0.00079427776, z: -0.006096959}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_71
+      parentName: character/nightelf/male/nightelfmale_hd_bone_40
+      position: {x: 0.013764941, y: 0.055245705, z: 0.015075207}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_119
+      parentName: character/nightelf/male/nightelfmale_hd_bone_71
+      position: {x: 0.059335373, y: 0.039047785, z: 0.021505713}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_135
+      parentName: character/nightelf/male/nightelfmale_hd_bone_119
+      position: {x: 0.06488673, y: 0.037375256, z: 0.0036062002}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_72
+      parentName: character/nightelf/male/nightelfmale_hd_bone_40
+      position: {x: -0.06455424, y: -0.021043057, z: 0.015470862}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_73
+      parentName: character/nightelf/male/nightelfmale_hd_bone_40
+      position: {x: -0.06501977, y: -0.020771708, z: 0.017816782}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_74
+      parentName: character/nightelf/male/nightelfmale_hd_bone_40
+      position: {x: -0.054270342, y: -0.00037225, z: -0.018273234}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_75
+      parentName: character/nightelf/male/nightelfmale_hd_bone_40
+      position: {x: -0.06502187, y: -0.020910973, z: 0.04747665}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_76
+      parentName: character/nightelf/male/nightelfmale_hd_bone_40
+      position: {x: -0.07546493, y: -0.0072202915, z: 0.030700445}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_77
+      parentName: character/nightelf/male/nightelfmale_hd_bone_40
+      position: {x: -0.06917854, y: -0.023065278, z: 0.033276677}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_78
+      parentName: character/nightelf/male/nightelfmale_hd_bone_40
+      position: {x: -0.05749325, y: -0.033967778, z: 0.03098929}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_79
+      parentName: character/nightelf/male/nightelfmale_hd_bone_40
+      position: {x: -0.08031062, y: 0.0056640557, z: -0.008257985}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_80
+      parentName: character/nightelf/male/nightelfmale_hd_bone_40
+      position: {x: -0.08031062, y: -0.0056640697, z: -0.008257985}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_81
+      parentName: character/nightelf/male/nightelfmale_hd_bone_40
+      position: {x: -0.07454993, y: 0.00444675, z: -0.023819089}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_82
+      parentName: character/nightelf/male/nightelfmale_hd_bone_40
+      position: {x: -0.06699326, y: 0.016117223, z: -0.024477363}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_83
+      parentName: character/nightelf/male/nightelfmale_hd_bone_40
+      position: {x: -0.07104812, y: 0.011013013, z: -0.02401495}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_84
+      parentName: character/nightelf/male/nightelfmale_hd_bone_40
+      position: {x: -0.07354201, y: 0.012235236, z: 0.009624004}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_85
+      parentName: character/nightelf/male/nightelfmale_hd_bone_40
+      position: {x: -0.054781187, y: -0.01802376, z: 0.019735694}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_86
+      parentName: character/nightelf/male/nightelfmale_hd_bone_40
+      position: {x: -0.06679978, y: 0.017421251, z: -0.021020412}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_87
+      parentName: character/nightelf/male/nightelfmale_hd_bone_40
+      position: {x: -0.07546493, y: 0.007220264, z: 0.030700445}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_88
+      parentName: character/nightelf/male/nightelfmale_hd_bone_40
+      position: {x: 0.07512586, y: 0, z: 0.044828773}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_120
+      parentName: character/nightelf/male/nightelfmale_hd_bone_88
+      position: {x: 0.16730878, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_136
+      parentName: character/nightelf/male/nightelfmale_hd_bone_120
+      position: {x: 0.16886383, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_89
+      parentName: character/nightelf/male/nightelfmale_hd_bone_40
+      position: {x: -0.07104812, y: -0.011013028, z: -0.02401495}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_90
+      parentName: character/nightelf/male/nightelfmale_hd_bone_40
+      position: {x: -0.0704084, y: 0.02050736, z: 0.0013684034}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_192
+      parentName: character/nightelf/male/nightelfmale_hd_bone_40
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_193
+      parentName: character/nightelf/male/nightelfmale_hd_bone_40
+      position: {x: -0.014315648, y: 0, z: 0.079478145}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_196
+      parentName: character/nightelf/male/nightelfmale_hd_bone_40
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_197
+      parentName: character/nightelf/male/nightelfmale_hd_bone_40
+      position: {x: -0.07673718, y: 0, z: -0.026507497}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_198
+      parentName: character/nightelf/male/nightelfmale_hd_bone_40
+      position: {x: -0.08449027, y: 0, z: -0.029742002}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_165
+      parentName: character/nightelf/male/nightelfmale_hd_bone_16
+      position: {x: 0.14798398, y: -0.11571264, z: 0.16850398}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_166
+      parentName: character/nightelf/male/nightelfmale_hd_bone_16
+      position: {x: 0.080239885, y: 0, z: 0.060592707}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_167
+      parentName: character/nightelf/male/nightelfmale_hd_bone_16
+      position: {x: -0.042403072, y: 0, z: -0.055859383}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_168
+      parentName: character/nightelf/male/nightelfmale_hd_bone_16
+      position: {x: -0.042403072, y: 0, z: -0.055859383}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_170
+      parentName: character/nightelf/male/nightelfmale_hd_bone_16
+      position: {x: -0.042403072, y: 0, z: -0.055859383}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_171
+      parentName: character/nightelf/male/nightelfmale_hd_bone_16
+      position: {x: 0.07139545, y: 0, z: 0.058632907}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_173
+      parentName: character/nightelf/male/nightelfmale_hd_bone_16
+      position: {x: 0.1405521, y: 0.14787501, z: 0.19394279}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_174
+      parentName: character/nightelf/male/nightelfmale_hd_bone_16
+      position: {x: -0.042403072, y: 0, z: -0.055859383}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_175
+      parentName: character/nightelf/male/nightelfmale_hd_bone_16
+      position: {x: -0.08873375, y: 0, z: 0.030605495}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_176
+      parentName: character/nightelf/male/nightelfmale_hd_bone_16
+      position: {x: 0.12954786, y: -0.14787917, z: 0.19394279}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_177
+      parentName: character/nightelf/male/nightelfmale_hd_bone_16
+      position: {x: -0.082832485, y: 0, z: 0.016958535}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_178
+      parentName: character/nightelf/male/nightelfmale_hd_bone_16
+      position: {x: 0.1183353, y: 0.046791673, z: 0.018474638}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_179
+      parentName: character/nightelf/male/nightelfmale_hd_bone_16
+      position: {x: 0.14921266, y: 0, z: -0.037807345}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_180
+      parentName: character/nightelf/male/nightelfmale_hd_bone_16
+      position: {x: 0.0754403, y: 0, z: 0.0040926337}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_181
+      parentName: character/nightelf/male/nightelfmale_hd_bone_16
+      position: {x: -0.08132373, y: 0, z: -0.0000005364418}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_182
+      parentName: character/nightelf/male/nightelfmale_hd_bone_16
+      position: {x: -0.042403072, y: 0, z: -0.055859383}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_183
+      parentName: character/nightelf/male/nightelfmale_hd_bone_16
+      position: {x: 0.09531275, y: -0.046788324, z: 0.019027352}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_153
+      parentName: character/nightelf/male/nightelfmale_hd_bone_3
+      position: {x: -0.0000000011641532, y: -0.004789962, z: 0.000115036964}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_154
+      parentName: character/nightelf/male/nightelfmale_hd_bone_3
+      position: {x: -0.0000000011641532, y: -0.004789962, z: 0.000115036964}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_156
+      parentName: character/nightelf/male/nightelfmale_hd_bone_3
+      position: {x: -0.014524724, y: 0.12116688, z: -0.07552724}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_157
+      parentName: character/nightelf/male/nightelfmale_hd_bone_3
+      position: {x: -0.0000000011641532, y: -0.004789962, z: 0.000115036964}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_158
+      parentName: character/nightelf/male/nightelfmale_hd_bone_3
+      position: {x: -0.0000000011641532, y: -0.004789962, z: 0.000115036964}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_159
+      parentName: character/nightelf/male/nightelfmale_hd_bone_3
+      position: {x: -0.0011712213, y: 0, z: -0.0046464205}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_160
+      parentName: character/nightelf/male/nightelfmale_hd_bone_3
+      position: {x: -0.01975251, y: -0.12041263, z: -0.07180977}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_162
+      parentName: character/nightelf/male/nightelfmale_hd_bone_3
+      position: {x: -0.0000000011641532, y: -0.004789962, z: 0.000115036964}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_163
+      parentName: character/nightelf/male/nightelfmale_hd_bone_3
+      position: {x: -0.0000000011641532, y: -0.004789962, z: 0.000115036964}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: character/nightelf/male/nightelfmale_hd_bone_143
+      parentName: character/nightelf/male/nightelfmale_hd_rig
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.00000008940697, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: character/nightelf/male/nightelfmale_hd_bone_144
+      parentName: character/nightelf/male/nightelfmale_hd_rig
+      position: {x: -0, y: 0, z: 0.7109485}
+      rotation: {x: -0.00000008940697, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: character/nightelf/male/nightelfmale_hd_bone_145
+      parentName: character/nightelf/male/nightelfmale_hd_rig
+      position: {x: -0, y: 0, z: -0.006944338}
+      rotation: {x: -0.00000008940697, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: character/nightelf/male/nightelfmale_hd_bone_146
+      parentName: character/nightelf/male/nightelfmale_hd_rig
+      position: {x: -0.04293308, y: 0, z: 1.3373724}
+      rotation: {x: -0.00000008940697, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: character/nightelf/male/nightelfmale_hd_bone_147
+      parentName: character/nightelf/male/nightelfmale_hd_rig
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.00000008940697, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: character/nightelf/male/nightelfmale_hd_bone_148
+      parentName: character/nightelf/male/nightelfmale_hd_rig
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.00000008940697, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: character/nightelf/male/nightelfmale_hd_bone_149
+      parentName: character/nightelf/male/nightelfmale_hd_rig
+      position: {x: -0, y: 0, z: 1.4372425}
+      rotation: {x: -0.00000008940697, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: character/nightelf/male/nightelfmale_hd_bone_150
+      parentName: character/nightelf/male/nightelfmale_hd_rig
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.00000008940697, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: character/nightelf/male/nightelfmale_hd_bone_151
+      parentName: character/nightelf/male/nightelfmale_hd_rig
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.00000008940697, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: character/nightelf/male/nightelfmale_hd_bone_152
+      parentName: character/nightelf/male/nightelfmale_hd_rig
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.00000008940697, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 9868d0690a44c9d43a9b8481959854a1, type: 3}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 2
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -16,10 +16,7 @@ public class PlayerJumpBehaviour : StateMachineBehaviour
     {
         this.animator = animator;
 
-        if (characterController == null)
-        {
-            characterController = animator.GetComponent<CharacterController>();
-        }
+        if (characterController == null)   characterController = animator.GetComponent<CharacterController>();
         if (playerController == null)
         {
             playerController = animator.GetComponent<PlayerController>();
@@ -61,10 +58,9 @@ public class PlayerJumpBehaviour : StateMachineBehaviour
         Vector3 rightVec = new Vector3(cam.transform.right.x, 0f, cam.transform.right.z).normalized;
 
         Vector3 moveVec = moveInput.x * rightVec + moveInput.z * forwardVec;
-
         // 이동 방향 바라보기
         if (moveVec.magnitude > 0f)
-            animator.transform.forward = moveVec;
+            animator.transform.forward = moveVec * -1;
         animator.SetFloat("MoveSpeed", moveInput.magnitude);
 
         characterController.Move(moveVec * playerController.moveSpeed * Time.deltaTime);
@@ -73,5 +69,6 @@ public class PlayerJumpBehaviour : StateMachineBehaviour
     private void Jump()
     {
         playerController.jumpTime = 0.1f;
+
     }
 }

@@ -20,9 +20,36 @@ ModelImporter:
     removeConstantScaleCurves: 1
     motionNodeName: 
     rigImportErrors: 
-    rigImportWarnings: 
+    rigImportWarnings: "Copied Avatar Rig Configuration mis-match. Bone length in
+      copied configuration does not match position in animation file:\n\t'character/orc/male/orcmale_hd_bone_28'
+      : position error = 21.842541 mm\n\t'character/orc/male/orcmale_hd_bone_46'
+      : position error = 3.388556 mm\n\t'character/orc/male/orcmale_hd_bone_51' :
+      position error = 12.434466 mm\n\t'character/orc/male/orcmale_hd_bone_112' :
+      position error = 6.454175 mm\n\t'character/orc/male/orcmale_hd_bone_114' :
+      position error = 8.034395 mm\nCopied Avatar Rig Configuration mis-match. Inbetween
+      bone rotation in copied configuration does not match rotation in animation
+      file:\n\t'character/orc/male/orcmale_hd_bone_32' : rotation error = 9.522133
+      deg\n\t'character/orc/male/orcmale_hd_bone_3' : rotation error = 50.016975
+      deg\n\t'character/orc/male/orcmale_hd_bone_14' : rotation error = 20.943483
+      deg\n\t'character/orc/male/orcmale_hd_bone_94' : rotation error = 41.794102
+      deg\n\t'character/orc/male/orcmale_hd_bone_24' : rotation error = 12.542090
+      deg\n\t'character/orc/male/orcmale_hd_bone_40' : rotation error = 61.768482
+      deg\n"
     animationImportErrors: 
-    animationImportWarnings: 
+    animationImportWarnings: "\nClip 'CombatChargeLoop [218]' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'character/orc/male/orcmale_hd_bone_2'
+      has translation animation that will be discarded.\n\t'character/orc/male/orcmale_hd_bone_2'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'character/orc/male/orcmale_hd_bone_31'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'character/orc/male/orcmale_hd_bone_32'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'character/orc/male/orcmale_hd_bone_3'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'character/orc/male/orcmale_hd_bone_14'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'character/orc/male/orcmale_hd_bone_28'
+      has translation animation that will be discarded.\n\t'character/orc/male/orcmale_hd_bone_24'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'character/orc/male/orcmale_hd_bone_40'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'character/orc/male/orcmale_hd_bone_112'
+      has translation animation that will be discarded.\n\t'character/orc/male/orcmale_hd_bone_114'
+      has translation animation that will be discarded.\n"
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
@@ -34,7 +61,36 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: CombatChargeLoop [218]
+      takeName: CombatChargeLoop [218]
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 14
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 0
   meshes:
     lODScreenPercentages: []
