@@ -61,3 +61,9 @@ https://www.inflearn.com/questions/197919
    
    <br><br><br>
    WOW Model Viewer : https://wowmodelviewer.net/ <br>
+   
+   
+   
+   <br><br><br><br>
+   NavMeshAgent + Animation 적용 : 상태패턴으로 구현하고 moveSpeed에 따른 애니메이션 변화. 상태패턴에 움직임 구현, 캐릭터컨트롤러에서 애니메이션 호출하기
+   <br>
