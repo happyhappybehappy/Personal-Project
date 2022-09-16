@@ -26,12 +26,24 @@ public class PlayerChargeAttack : StateMachineBehaviour
 
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        characterController.SimpleMove(moveDir.normalized);
+        /*dis = Vector3.Distance(player.position, other.position);
+        if (dis >= 2f)
+        {
         player.LookAt(other.position);
-        //agent.destination = other.position;
-        //Charge();
-        // if(Vector3.Distance(player.position, other.position) >= 1f)  Charge();
-        //playerController.StartCoroutine(ChargeAttack());
+            dis = Vector3.Distance(player.position, other.position);
+            player.position = Vector3.MoveTowards(player.position, other.position, 10f * Time.deltaTime);
+        }*/
+        dis = Vector3.Distance(player.position, other.position);
+        if(dis >=1f)
+        {
+            player.LookAt(other.position);
+            player.position = Vector3.Lerp(player.position, other.position, 0.1f);
+        }
+        else
+        {
+            animator.SetTrigger("ChargeAttack");
+        }
+
     }
 
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
@@ -41,10 +53,10 @@ public class PlayerChargeAttack : StateMachineBehaviour
     public void Charge()
     {
         dis = Vector3.Distance(player.position, other.position);
-        if (dis >= 1)
+        if (dis >= 0.011)
         {
            dis = Vector3.Distance(player.position, other.position);
-           player.position = Vector3.MoveTowards(player.position, other.position, 2f * Time.deltaTime);
+           player.position = Vector3.MoveTowards(player.position, other.position, 4f * Time.deltaTime);
         }
         // player.position = Vector3.MoveTowards(player.position, other.position, 1f * Time.deltaTime);
         // agent.destination = other.position;

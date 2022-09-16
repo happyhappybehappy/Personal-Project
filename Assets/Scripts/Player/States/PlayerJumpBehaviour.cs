@@ -60,7 +60,7 @@ public class PlayerJumpBehaviour : StateMachineBehaviour
         Vector3 moveVec = moveInput.x * rightVec + moveInput.z * forwardVec;
         // 이동 방향 바라보기
         if (moveVec.magnitude > 0f)
-            animator.transform.forward = moveVec * -1;
+            animator.transform.forward = moveVec;
         animator.SetFloat("MoveSpeed", moveInput.magnitude);
 
         characterController.Move(moveVec * playerController.moveSpeed * Time.deltaTime);

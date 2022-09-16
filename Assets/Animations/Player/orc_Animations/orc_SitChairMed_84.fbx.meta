@@ -20,9 +20,29 @@ ModelImporter:
     removeConstantScaleCurves: 1
     motionNodeName: 
     rigImportErrors: 
-    rigImportWarnings: 
+    rigImportWarnings: "Copied Avatar Rig Configuration mis-match. Bone length in
+      copied configuration does not match position in animation file:\n\t'character/orc/male/orcmale_hd_bone_112'
+      : position error = 7.180452 mm\n\t'character/orc/male/orcmale_hd_bone_114'
+      : position error = 10.070171 mm\nCopied Avatar Rig Configuration mis-match.
+      Inbetween bone rotation in copied configuration does not match rotation in
+      animation file:\n\t'character/orc/male/orcmale_hd_bone_32' : rotation error
+      = 20.388084 deg\n\t'character/orc/male/orcmale_hd_bone_3' : rotation error
+      = 12.664484 deg\n\t'character/orc/male/orcmale_hd_bone_14' : rotation error
+      = 4.323429 deg\n\t'character/orc/male/orcmale_hd_bone_94' : rotation error
+      = 5.871775 deg\n\t'character/orc/male/orcmale_hd_bone_24' : rotation error
+      = 18.379112 deg\n\t'character/orc/male/orcmale_hd_bone_40' : rotation error
+      = 8.376307 deg\n"
     animationImportErrors: 
-    animationImportWarnings: 
+    animationImportWarnings: "\nClip 'SitChairMed [84]' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'character/orc/male/orcmale_hd_bone_3' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'character/orc/male/orcmale_hd_bone_14'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'character/orc/male/orcmale_hd_bone_94'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'character/orc/male/orcmale_hd_bone_24'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'character/orc/male/orcmale_hd_bone_40'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'character/orc/male/orcmale_hd_bone_112'
+      has translation animation that will be discarded.\n\t'character/orc/male/orcmale_hd_bone_114'
+      has translation animation that will be discarded.\n"
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0

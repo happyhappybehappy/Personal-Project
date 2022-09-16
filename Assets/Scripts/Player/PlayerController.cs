@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Net;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.AI;
 
 [RequireComponent(typeof(CharacterController))]
 public class PlayerController : MonoBehaviour
@@ -48,9 +49,13 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     //public Wolf monster;
 
+    private NavMeshAgent agent;
     private Animator animator;
     public Transform enemy;
 
+    [SerializeField] private LayerMask hitLayerMask;
+    [SerializeField] private GameObject leftWeapon;
+    [SerializeField] private GameObject rightWeapon;
     private Vector3 startPos, endPos;
     protected float timer;
     protected float timeToFloor;
@@ -71,6 +76,7 @@ public class PlayerController : MonoBehaviour
         timer = 0;
         while (transform.position.y >= startPos.y)
         {
+            transform.rotation = Quaternion.LookRotation(enemy.position - transform.position);
             onSkill = true;
             timer += Time.deltaTime;
             Vector3 tempPos = Parabola(startPos, endPos, 2, timer);
@@ -79,13 +85,17 @@ public class PlayerController : MonoBehaviour
         }
         onSkill = false;
     }
-    Rigidbody rgb;
+
+    protected IEnumerator ChargeRush()
+    {
+        transform.Translate(Vector3.forward * 2f);
+        yield return null;
+
+    }
+
+
 
     bool onSkill = false;
-
-
-
-
 
 
 
@@ -98,42 +108,73 @@ public class PlayerController : MonoBehaviour
         controller = GetComponent<CharacterController>();
         groundChecker = GetComponent<GroundChecker>();
         animator = GetComponent<Animator>();
-        rgb = GetComponent<Rigidbody>();
-
+        agent = GetComponent<NavMeshAgent>();
 
     }
 
     private void Update()
     {
-        if(onSkill == false)   Gravity();
-        //  if (Input.GetKeyDown(KeyCode.K))
-        //  {
-        //      leap.Jump();
-        //  }
+        Gravity();
+
+        if (Input.GetMouseButtonDown(1))
+        {
+            MouseMove();
+        }
+
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
-            Charge();
+            transform.LookAt(enemy.position);
+            animator.SetTrigger("Charge");
+        }
+
+        if (Input.GetKeyDown(KeyCode.Alpha2))
+        {
+            //controller.enabled = false;
+            //transform.LookAt(new Vector3(enemy.position.x, enemy.position.y, enemy.position.z));
+            transform.LookAt(enemy.position);
+            Jumping2();
+            // controller.enabled = true;
         }
 
         if (Input.GetKeyDown(KeyCode.Alpha3))
         {
-            //controller.enabled = false;
-            transform.LookAt(enemy.position);
-            Jumping2();
-            // controller.enabled = true;
+            animator.SetBool("BladeStorm", !animator.GetBool("BladeStorm"));
+        }
+
+        if (Input.GetKeyDown(KeyCode.F1))
+            leftWeapon.SetActive(!leftWeapon.activeSelf);
+
+        if (Input.GetKeyDown(KeyCode.F2))
+            leftWeapon.SetActive(!rightWeapon.activeSelf);
+
+    }
+
+
+    private void MouseMove()
+    {
+        RaycastHit hit;
+
+        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        if (Physics.Raycast(ray, out hit, Mathf.Infinity, hitLayerMask))
+        {
+            controller.enabled = false;
+            agent.destination = hit.point;
+            controller.enabled = true;
         }
     }
 
     void Charge()
     {
         animator.SetTrigger("Charge");
-        float dis = Vector3.Distance(transform.position, enemy.position);
-        transform.position = Vector3.Lerp(transform.position, transform.position, dis * Time.deltaTime);
-       /* if (dis >= 1)
+       
+        Vector3 dir = enemy.position - transform.position;
+        if (dir.magnitude >= 0.001f)
         {
-            dis = Vector3.Distance(transform.position, enemy.position);
-            transform.position = Vector3.MoveTowards(transform.position, enemy.position, 2f * Time.deltaTime);
-        }*/
+            float moveDist = Mathf.Clamp(5f * Time.deltaTime, 0, dir.magnitude);
+            transform.position += dir.normalized * moveDist;
+            transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(dir), 10f * Time.deltaTime);
+        }
+        animator.SetTrigger("ChargeAttack");
     }
     void Jumping2()
     {
@@ -141,22 +182,6 @@ public class PlayerController : MonoBehaviour
         startPos = transform.position;
         endPos = enemy.position;
         StartCoroutine("Move");
-    }
-
-    void Jumping()
-    {
-        animator.SetTrigger("HeroicLeap");
-        Vector3 hpos = transform.position + ((enemy.position - transform.position) / 2);
-
-        /*        Vector3[] Jumppath = { new Vector3(transform.position.x, transform.position.y, transform.position.z),
-                                           new Vector3(hpos.x, hpos.y+3, hpos.z),
-                                           new Vector3(enemy.position.x, enemy.position.y, enemy.position.z)};*/
-
-        Vector3[] Jumppath = { transform.position,
-                                   new Vector3(hpos.x, hpos.y+1, hpos.z),
-                                   new Vector3(enemy.position.x-1, enemy.position.y, enemy.position.z-1)};
-
-        controller.transform.DOPath(Jumppath, 3f, PathType.CatmullRom, PathMode.Full3D).SetLookAt(enemy.position);
     }
 
 
@@ -179,6 +204,7 @@ public class PlayerController : MonoBehaviour
         controller.Move(Vector3.up * moveY * Time.deltaTime);
         animator.SetFloat("JumpHeight", controller.transform.position.y);
     }
+
 
     private void OnDrawGizmos()
     {

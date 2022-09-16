@@ -1,11 +1,11 @@
 fileFormatVersion: 2
-guid: 8fceca3ff85842a42abddb6609ca9a14
+guid: 2b8f897a6332530489b57827d16b6416
 ModelImporter:
   serializedVersion: 21202
   internalIDToNameTable:
   - first:
-      74: -7585288061595594146
-    second: CombatChargeLoop [218]
+      74: 8734700883061534372
+    second: CombatChargeEnd [217]
   externalObjects: {}
   materials:
     materialImportMode: 2
@@ -20,9 +20,48 @@ ModelImporter:
     removeConstantScaleCurves: 1
     motionNodeName: 
     rigImportErrors: 
-    rigImportWarnings: 
+    rigImportWarnings: "Copied Avatar Rig Configuration mis-match. Bone length in
+      copied configuration does not match position in animation file:\n\t'character/orc/male/orcmale_hd_bone_3'
+      : position error = 22.553553 mm\n\t'character/orc/male/orcmale_hd_bone_9' :
+      position error = 22.553514 mm\n\t'character/orc/male/orcmale_hd_bone_14' :
+      position error = 22.553555 mm\n\t'character/orc/male/orcmale_hd_bone_24' :
+      position error = 26.816481 mm\n\t'character/orc/male/orcmale_hd_bone_30' :
+      position error = 26.816240 mm\n\t'character/orc/male/orcmale_hd_bone_40' :
+      position error = 26.816406 mm\n\t'character/orc/male/orcmale_hd_bone_51' :
+      position error = 12.434529 mm\n\t'character/orc/male/orcmale_hd_bone_112' :
+      position error = 28.227459 mm\n\t'character/orc/male/orcmale_hd_bone_114' :
+      position error = 16.130764 mm\nCopied Avatar Rig Configuration mis-match. Inbetween
+      bone rotation in copied configuration does not match rotation in animation
+      file:\n\t'character/orc/male/orcmale_hd_bone_32' : rotation error = 82.157593
+      deg\n\t'character/orc/male/orcmale_hd_bone_3' : rotation error = 99.625374
+      deg\n\t'character/orc/male/orcmale_hd_bone_14' : rotation error = 35.612953
+      deg\n\t'character/orc/male/orcmale_hd_bone_94' : rotation error = 17.785259
+      deg\n\t'character/orc/male/orcmale_hd_bone_24' : rotation error = 14.813593
+      deg\n\t'character/orc/male/orcmale_hd_bone_40' : rotation error = 61.652779
+      deg\n"
     animationImportErrors: 
-    animationImportWarnings: 
+    animationImportWarnings: "\nClip 'CombatChargeEnd [217]' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'character/orc/male/orcmale_hd_bone_2'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'character/orc/male/orcmale_hd_bone_18'
+      has translation animation that will be discarded.\n\t'character/orc/male/orcmale_hd_bone_25'
+      has translation animation that will be discarded.\n\t'character/orc/male/orcmale_hd_bone_31'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'character/orc/male/orcmale_hd_bone_26'
+      has translation animation that will be discarded.\n\t'character/orc/male/orcmale_hd_bone_32'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'character/orc/male/orcmale_hd_bone_3'
+      has translation animation that will be discarded.\n\t'character/orc/male/orcmale_hd_bone_3'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'character/orc/male/orcmale_hd_bone_9'
+      has translation animation that will be discarded.\n\t'character/orc/male/orcmale_hd_bone_14'
+      has translation animation that will be discarded.\n\t'character/orc/male/orcmale_hd_bone_14'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'character/orc/male/orcmale_hd_bone_24'
+      has translation animation that will be discarded.\n\t'character/orc/male/orcmale_hd_bone_24'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'character/orc/male/orcmale_hd_bone_30'
+      has translation animation that will be discarded.\n\t'character/orc/male/orcmale_hd_bone_40'
+      has translation animation that will be discarded.\n\t'character/orc/male/orcmale_hd_bone_40'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'character/orc/male/orcmale_hd_bone_51'
+      has translation animation that will be discarded.\n\t'character/orc/male/orcmale_hd_bone_112'
+      has translation animation that will be discarded.\n\t'character/orc/male/orcmale_hd_bone_114'
+      has translation animation that will be discarded.\n"
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
@@ -34,7 +73,36 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: CombatChargeEnd [217]
+      takeName: CombatChargeEnd [217]
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 0
   meshes:
     lODScreenPercentages: []
