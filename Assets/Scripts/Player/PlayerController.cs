@@ -118,8 +118,9 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Alpha3))
         {
             //controller.enabled = false;
+            transform.LookAt(enemy.position);
             Jumping2();
-           // controller.enabled = true;
+            // controller.enabled = true;
         }
     }
 
