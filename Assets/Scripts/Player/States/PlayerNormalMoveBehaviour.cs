@@ -50,6 +50,7 @@ public class PlayerNormalMoveBehaviour : StateMachineBehaviour
         Jump();
         OnSkill();
         ChangeMode();
+       // MouseMove();
         // Interaction();
         /*if (Input.GetMouseButtonDown(1))
         {
@@ -65,15 +66,6 @@ public class PlayerNormalMoveBehaviour : StateMachineBehaviour
         // MouseMove();
     }
 
-    private void MouseMove()
-    {
-
-        if (Vector3.Distance(transform.position, movePoint) > 0.1f)
-        {
-            Vector3 thisUpdatePoint = (movePoint - transform.position).normalized * mouseMoveSpeed;
-            characterController.SimpleMove(thisUpdatePoint);
-        }
-    }
 
 
        private void Move()
@@ -143,47 +135,63 @@ public class PlayerNormalMoveBehaviour : StateMachineBehaviour
                 animator.SetBool("Battle", true);
             }
         }
-        /*
-        private void Interaction()
+
+    /********************
+    private void MouseMove()
+    {
+        RaycastHit hit;
+
+        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        if (Physics.Raycast(ray, out hit, Mathf.Infinity, hitLayerMask))
         {
-            Debug.DrawLine(transform.position, transform.position + transform.forward, Color.red);
-            Collider[] colliders = Physics.OverlapSphere(playerController.interactionPoint.position, playerController.interactionRange, layerMask);
-            IInteractable target = colliders[0].GetComponent<IInteractable>();
+            controller.enabled = false;
+            agent.destination = hit.point;
+            controller.enabled = true;
+        }
+    }
+    */
 
-            if (target != null) tempTarget = target;
+    /*
+    private void Interaction()
+    {
+        Debug.DrawLine(transform.position, transform.position + transform.forward, Color.red);
+        Collider[] colliders = Physics.OverlapSphere(playerController.interactionPoint.position, playerController.interactionRange, layerMask);
+        IInteractable target = colliders[0].GetComponent<IInteractable>();
 
-            if (!Input.GetButtonDown("Interaction"))
+        if (target != null) tempTarget = target;
+
+        if (!Input.GetButtonDown("Interaction"))
+        {
+            if (target == null)
             {
-                if (target == null)
-                {
-                    tempTarget.OnUnFocused();
-                    tempTarget = null;
-                }
-                else
-                {
-                    tempTarget.OnFocused(animator.gameObject);
-                }
-
-                return;
+                tempTarget.OnUnFocused();
+                tempTarget = null;
+            }
+            else
+            {
+                tempTarget.OnFocused(animator.gameObject);
             }
 
-            // 키를 눌렀을 때
-
-
-            if (Input.GetButtonDown("Interaction") && colliders.Length > 0)
-            {
-                //  IInteractable target = colliders[0].GetComponent<IInteractable>();
-                tempTarget?.Interaction();
-            }
-
+            return;
         }
 
-        public void DrinkPotion()
+        // 키를 눌렀을 때
+
+
+        if (Input.GetButtonDown("Interaction") && colliders.Length > 0)
         {
-            animator.SetTrigger("Drink");
-        }*/
+            //  IInteractable target = colliders[0].GetComponent<IInteractable>();
+            tempTarget?.Interaction();
+        }
+
+    }
+
+    public void DrinkPotion()
+    {
+        animator.SetTrigger("Drink");
+    }*/
 
 
 
-   }
+}
 

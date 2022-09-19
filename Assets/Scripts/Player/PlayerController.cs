@@ -118,7 +118,7 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetMouseButtonDown(1))
         {
-            MouseMove();
+            animator.SetTrigger("MouseMove");
         }
 
         if (Input.GetKeyDown(KeyCode.Alpha1))
@@ -147,20 +147,6 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.F2))
             leftWeapon.SetActive(!rightWeapon.activeSelf);
 
-    }
-
-
-    private void MouseMove()
-    {
-        RaycastHit hit;
-
-        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-        if (Physics.Raycast(ray, out hit, Mathf.Infinity, hitLayerMask))
-        {
-            controller.enabled = false;
-            agent.destination = hit.point;
-            controller.enabled = true;
-        }
     }
 
     void Charge()
