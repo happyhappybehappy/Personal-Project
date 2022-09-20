@@ -118,7 +118,7 @@ public class PlayerNormalMoveBehaviour : StateMachineBehaviour
 
        if (Input.GetKeyDown(KeyCode.Alpha1))
         {
-            animator.SetTrigger("Charge");
+            animator.SetBool("Charge", true);
         }
 
 /*        if (Input.GetKeyDown(KeyCode.Alpha2))

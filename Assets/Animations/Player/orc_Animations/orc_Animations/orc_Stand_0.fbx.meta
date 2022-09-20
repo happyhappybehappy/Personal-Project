@@ -19,22 +19,11 @@ ModelImporter:
     optimizeGameObjects: 0
     removeConstantScaleCurves: 1
     motionNodeName: 
-    rigImportErrors: 
+    rigImportErrors: "Invalid copied Avatar Rig Configuration:\n\tRequired human
+      bone 'LeftUpperLeg' not found\n"
     rigImportWarnings: 
     animationImportErrors: 
-    animationImportWarnings: "\nClip 'Stand [0]' has import animation warnings that
-      might lower retargeting quality:\nNote: Activate translation DOF on avatar
-      to improve retargeting quality.\n\t'character/orc/male/orcmale_hd_bone_12'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'character/orc/male/orcmale_hd_bone_31'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'character/orc/male/orcmale_hd_bone_3'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'character/orc/male/orcmale_hd_bone_14'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'character/orc/male/orcmale_hd_bone_33'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'character/orc/male/orcmale_hd_bone_114'
-      has translation animation that will be discarded.\n\t'character/orc/male/orcmale_hd_bone_115'
-      has translation animation that will be discarded.\n\t'character/orc/male/orcmale_hd_bone_117'
-      has translation animation that will be discarded.\n\t'character/orc/male/orcmale_hd_bone_118'
-      has translation animation that will be discarded.\n\t'character/orc/male/orcmale_hd_bone_119'
-      has translation animation that will be discarded.\n"
+    animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0

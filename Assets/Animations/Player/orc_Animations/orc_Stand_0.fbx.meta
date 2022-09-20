@@ -19,32 +19,11 @@ ModelImporter:
     optimizeGameObjects: 0
     removeConstantScaleCurves: 1
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: "Copied Avatar Rig Configuration mis-match. Bone length in
-      copied configuration does not match position in animation file:\n\t'character/orc/male/orcmale_hd_bone_112'
-      : position error = 7.180389 mm\n\t'character/orc/male/orcmale_hd_bone_114'
-      : position error = 10.070053 mm\nCopied Avatar Rig Configuration mis-match.
-      Inbetween bone rotation in copied configuration does not match rotation in
-      animation file:\n\t'character/orc/male/orcmale_hd_bone_32' : rotation error
-      = 17.303236 deg\n\t'character/orc/male/orcmale_hd_bone_3' : rotation error
-      = 8.315373 deg\n\t'character/orc/male/orcmale_hd_bone_14' : rotation error
-      = 13.490057 deg\n\t'character/orc/male/orcmale_hd_bone_94' : rotation error
-      = 25.925417 deg\n\t'character/orc/male/orcmale_hd_bone_24' : rotation error
-      = 21.304644 deg\n\t'character/orc/male/orcmale_hd_bone_40' : rotation error
-      = 4.674279 deg\n"
+    rigImportErrors: "Invalid copied Avatar Rig Configuration:\n\tRequired human
+      bone 'LeftUpperLeg' not found\n"
+    rigImportWarnings: 
     animationImportErrors: 
-    animationImportWarnings: "\nClip 'Stand [0]' has import animation warnings that
-      might lower retargeting quality:\nNote: Activate translation DOF on avatar
-      to improve retargeting quality.\n\t'character/orc/male/orcmale_hd_bone_31'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'character/orc/male/orcmale_hd_bone_32'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'character/orc/male/orcmale_hd_bone_3'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'character/orc/male/orcmale_hd_bone_14'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'character/orc/male/orcmale_hd_bone_94'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'character/orc/male/orcmale_hd_bone_24'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'character/orc/male/orcmale_hd_bone_40'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'character/orc/male/orcmale_hd_bone_112'
-      has translation animation that will be discarded.\n\t'character/orc/male/orcmale_hd_bone_114'
-      has translation animation that will be discarded.\n"
+    animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0

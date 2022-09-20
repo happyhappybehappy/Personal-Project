@@ -41,6 +41,7 @@ public class PlayerChargeAttack : StateMachineBehaviour
         }
         else
         {
+            animator.SetBool("Charge", false);
             animator.SetTrigger("ChargeAttack");
         }
 
